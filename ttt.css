@@ -4,3 +4,12 @@ body{
     flex-direction: column;
     align-items: center;
 }
+#playBoard{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+}
+#playBoard > div{
+    outline-style: dashed;
+}

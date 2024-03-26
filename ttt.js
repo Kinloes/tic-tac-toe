@@ -10,6 +10,8 @@ function playerInput(){
     console.log (playerArray)
 }
 
-function startGame(){
-    alert("it works")
+function TESTALERT(clicked_id){
+    //const realtest = document.getElementById(this.id);
+    //console.log(realtest);
+    alert(clicked_id);
 }
