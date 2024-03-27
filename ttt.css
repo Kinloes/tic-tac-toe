@@ -5,11 +5,13 @@ body{
     align-items: center;
 }
 #playBoard{
+    margin: 20px;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(3, 10vw);
-    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3, 20vw);
 }
 #playBoard > div{
     outline-style: dashed;
+    font-size: 16vw;
 }
