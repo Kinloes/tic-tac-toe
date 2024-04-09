@@ -40,8 +40,17 @@ function startGame(){
 function addMarker(clicked_id){
     console.log(clicked_id);
     let playerMark = document.getElementById(clicked_id);
+    if (playerMark.innerText === "X" || playerMark.innerText === "O"){
+        alert("That spot has been taken, please pick another")}
+        else{
     console.log(playerMark);
     playerMark.innerText = marker;
+    function TEST(){
+        let PCchoice = document.getElementById("d1")
+        PCchoice.innerHTML = "O"
+    }
+    setTimeout(TEST, 1000);
+        }
 }
 function resetGame(){
     for (let i = 1; i < 10; i++){
